@@ -20,14 +20,5 @@
     "transform": {
       "^.+\\.m?js$": "babel-jest"
     }
-  },
-  "babel": {
-    "env": {
-      "test": {
-        "plugins": [
-          "transform-es2015-modules-commonjs"
-        ]
-      }
-    }
   }
 }

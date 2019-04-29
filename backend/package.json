@@ -1,11 +1,17 @@
 {
   "name": "backend",
+  "description": "Sample package with test files",
   "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dandv/jest-parent-dir-transform"
+  },
   "scripts": {
     "test": "jest"
   },
   "devDependencies": {
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
     "jest": "^24.5.0"
   },
   "jest": {
